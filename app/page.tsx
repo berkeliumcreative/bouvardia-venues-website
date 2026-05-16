@@ -18,7 +18,7 @@ const TEXT_MUTED = "#5C6B5E";
 export default function Page() {
   const phoneTel = "tel:" + content.contact.phone.replace(/[^0-9]/g, "");
   const mapUrl =
-    "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=" +
+    "https://maps.google.com/maps?output=embed&q=" +
     encodeURIComponent(content.contact.mapEmbedQuery);
 
   return (
