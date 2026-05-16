@@ -140,6 +140,16 @@ export default function Page() {
             <div key={i} className="aspect-[4/3] bg-cover bg-center" style={{ backgroundImage: `url("${p}")`, borderRadius: "24px", boxShadow: `0 12px 32px ${PINK}22`, border: `1px solid ${GOLD}22` }} />
           ))}
         </div>
+        <div className="mt-5 grid md:grid-cols-4 gap-5">
+          {GALLERY.slice(6, 14).map((p, i) => (
+            <div key={i} className="aspect-square bg-cover bg-center" style={{ backgroundImage: `url("${p}")`, borderRadius: "20px", boxShadow: `0 10px 28px ${PINK}1A`, border: `1px solid ${GOLD}22` }} />
+          ))}
+        </div>
+        <div className="mt-5 grid md:grid-cols-3 gap-5">
+          {GALLERY.slice(14, 20).map((p, i) => (
+            <div key={i} className="aspect-[4/3] bg-cover bg-center" style={{ backgroundImage: `url("${p}")`, borderRadius: "24px", boxShadow: `0 12px 32px ${PINK}22`, border: `1px solid ${GOLD}22` }} />
+          ))}
+        </div>
       </section>
 
       {/* REVIEWS — testimonials with quote ornaments */}
