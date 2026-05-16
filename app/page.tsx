@@ -17,6 +17,9 @@ const GOLD_DEEP = "#8B7536";
 const CHARCOAL = "#2E2128";
 const TEXT_SOFT = "#6B5560";
 
+
+const GALLERY = ["https://lh3.googleusercontent.com/p/AF1QipNKF7RJFW14PkPz-Y77D1rWYIdcQ8xyX80R2wkb=w1920-h1080-k-no","https://lh3.googleusercontent.com/proxy/UdgJ3Zr82rJ4fj7C9rNCnuhGU7UO4rAuhNI-J7EjZogldOgccjQKrWFqy6p93Kz8IVZx7D9tXaIpn6bZaEJX_q9IMJmMotpQtVot1JaPb2N1Xs3u6ypbRv8ueokUwqPhtFv9lUprUjfphfFgLaHHQwFFY4MnsA=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAERblhEBcwBXwrWaRLyUdO_FHPfSZHDnyFAouul0TUkFxCsTsLxVFdAdqapIicLoV9flZzP_07wGPCMdgdSrcygo2tJNGukV0kw3lYqhJg6zE5TC_bru3g5nYl9jpJ8Chdk0FO2=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6nSg7u23LBnmxeLZ3rcol-VRs_9lMxuaDPTY5vLrCQ_tQaOXxOt5J2APqoaQIYhmLTI8nex50WXIi9X9-Av7zvE5woIigUSY1PjpROxAzDbxsJoKUmKCZQ9vjYx3UyHJM8MAB2A=w1920-h1080-k-no","https://lh5.googleusercontent.com/proxy/C7kRrYSvfEV9UairmoM-8OvLq4GqmMFoVSwfgdD2KeV4Ed5BAb3ikhw7j2aZBuEldaXKh8S7eD_6AWgB05gGXEfg0INX3B4Td4nIJObGPIhN6LXzEezjabUffsN_WBepfBat7QYgc1Y9C68aYrft1t3Z5qsdOg=w1920-h1080-k-no","https://lh3.googleusercontent.com/proxy/SGurugqIvfty042p3vq1DN3psN1S4Urg2MATIB9O2awmwlYSOf1pg616L3nsNYYlBEcnMQId9RpQo97QyrKykXi7kz3vr4n8C8XR_Tod5zmUlSbkjD4zBNWVyRIPbwLQz8ItPAdpmewPaIWfRd5Tq6_Obg9V6YE=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJS9jaikpLLaCvIsRuXd9nYYHyfhXhJ2C-pGspwQcwJezB-1O3sFV8zSKdR5sNOs7VpriWJEXuX1OI2hw_flZ9A65bMWhn612i5rrrQ4VVqKg0YbubhuR7ZpFoIqeIV8CbK8fF=w1920-h1080-k-no","https://lh6.googleusercontent.com/proxy/uAs293FxA6aEi6FELcWOszy4jboyFeIefswL-zmJPGdvP2keS83LQ8dcvMqWHuN1tPSm82CHUuOyZYnRbcJ21IU8gkMtuWqkJ_EDAZcTRv3sAAjLEi2skFktHH_npAJHw-qegy0EsNT03uYhdIyoT1qUJ6YZoqU=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFAhYksxNclZRNx1k98G7WTT59hBRepZ_YgDzLyd0kBZRS03EnxDsCMU-rrbFT7U-3ZY7TzYqKTwgXBjuGDaBMrtTQG9D0sbyHamB5Xofn6OzymT9TaVfCa8c0VCVjD8P693ZW5GQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqn4J1EV_Btvv4cH9o5m4hoXwsU-vLNn0Kf2WQDVLzJUM18MOIoZWas2CZR2W5ViavdCSRRptqbR2iaS7tppC6rJDUhsnM__AE-xDiWG49vpqGgfNU4hF0-J6jMxYML942B9dI=w1920-h1080-k-no","https://lh4.googleusercontent.com/proxy/bsc4WaF9x5JHCqQwk5aaanZFSFZAN4TRfOZdL4I8aY66ZxfqIhjFzxI10zlosoBmFgo5RFKza-gV2bs96gzq22pAU2II5qFzF8X-6veDOBYrqX4J7kWh-gMe6F5l9DMEYARcWyvw0qmpqBwxpdVp11q3sfC5sA=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGA2UfInu2MeCZZHvMMvbDC8SdmwBT9U-V7YCyfX8CSYBRrmj_1dFotPp1NzMYm8wD_o5eVbvxTjsD17KE1QU8RJp87JuRQOABkRsZnGG1cIUvYB4YMdtWEhlXJJRCPL7khE48hpA=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGG3OVQynpP9u8TSHTROAqWCHtkXpNkP82WDGkkK3gh7gMMDHRMMx8xySj1uit90bpT-M3pymPSIQS-lBzzhJVQINmFDDM4WuxL4tUj4kCSPxcqT7mr0SGCZsfg398hq1GgQtBl=w1920-h1080-k-no","https://lh4.googleusercontent.com/proxy/wLsNlV36BbXUOIFFaCObZP7FL_qXbOEHp7uxk8iuquaoyTGs0nuwuohZaGusoLbkgko0VUtulQbP7dVbe_YzwtSIZywOgTn_vqNz3S1KNABzMRTAH4W6CcZiXiMKh0L7eHqbcUxZ8nEnDfvkN2QmQP-FfgKKjAw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAECCYHWuHqeajlsiWkjTEl0VsXkqkD6SuRos2sxJyCCc9q_ylpnPwQVLSKdOWv7pmW7fL7YtA9D-9hvg3JzZNtjP3AE2OxW434r2UUY07v5KF0XIy9kwkxybMyTLQdGorOuN3m5=w1920-h1080-k-no","https://lh4.googleusercontent.com/proxy/Pv8NJB5Va36KbINaHAuFjGto4_bYo8vUHf4yU5nZI4lchR3JaNXd9REdoyELDEbQeEn057theNZHo9k0xp00Qm9rCEhj9UPQIbSqC3Y4ySE1CP3l_M9Q9I9GgWEs9H4yLUc0fltTDYxLn0ebktc0RB9aBju-C_QdS2GUoA=w1920-h1080-k-no","https://lh6.googleusercontent.com/proxy/p7zEXLjBNTXQ8KjoMkKt6PpW39UckuSopd1_w0RCKlSruHQsPCPFGVooJwIFDRK4arCo7Ib2ITJELr0SIZHPH-vYEglPFi9FDDXSZcVbfYUYohT1DuwNoyJcCndYEeJorrXJ3giIz2tB28dxeEzKYoFfbrWsNHs=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHsQS7udnJ8YO4HkxfQWY7EKJf3KCkUNbkcs1jB4asConBFPV50Q62jP0KAXG9zmrT4R7JuQGRwYgUpCdu_DxzcFxeSuiBPxykdSwAMCD7W9-Fa84OLF3LhKmaTuB2FQ8u1Jkkf=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAH7egKQiuVW27HW2Lb-hGhH9_8iFUmbxovueIAviCOvl9m_4RnxlUJzTZo7VDrOo4B77Tk8Ad-QspDtWvAXUk_t0ojDHf3l1kcObKRq3nzADCULMvWdHOTSiGsTCssgSFhje0_V=w1920-h1080-k-no","https://lh4.googleusercontent.com/proxy/Cu5r4sY7FkIWniyTAP7_5QnbsaggaOB96hYhBPIst_Zok6uoNdLWv_T4bpsa8m8Tdr4te_0MB2hOScWJZGVcGzBmtpkEMVCAfjTwzkGma_hgWDYY9eUwOMEqfjMPcRgw-dJYQ5_qlYK-E3nKhA684o9hf3kUbJM=w1920-h1080-k-no"];
+
 export default function Page() {
   const phoneTel = "tel:" + content.contact.phone.replace(/[^0-9]/g, "");
   const mapUrl = "https://maps.google.com/maps?output=embed&q=" + encodeURIComponent(content.contact.mapEmbedQuery);
@@ -114,6 +117,27 @@ export default function Page() {
               <div className="gold-divider h-px w-12 my-5" />
               <p className="text-base leading-relaxed" style={{ color: TEXT_SOFT, fontStyle: "italic" }}>{s.description}</p>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* GALLERY — elegant venue showcase */}
+      <section className="max-w-[1400px] mx-auto px-6 md:px-10 py-24 md:py-32">
+        <div className="text-center mb-14">
+          <p className="text-xs font-medium tracking-[0.5em] uppercase mb-6" style={{ color: GOLD_DEEP }}>The Setting</p>
+          <p className={script.className} style={{ fontSize: "clamp(3rem, 8vw, 6rem)", color: PINK_DEEP, lineHeight: 0.9 }}>Imagine the evening</p>
+          <div className="gold-divider h-px w-24 mx-auto my-8" />
+        </div>
+        <div className="grid md:grid-cols-12 gap-5">
+          <div className="md:col-span-7 aspect-[4/3] bg-cover bg-center" style={{ backgroundImage: `url("${GALLERY[0]}")`, borderRadius: "32px", boxShadow: `0 20px 50px ${PINK}33`, border: `1px solid ${GOLD}33` }} />
+          <div className="md:col-span-5 grid grid-cols-1 gap-5">
+            <div className="aspect-[4/3] bg-cover bg-center" style={{ backgroundImage: `url("${GALLERY[1]}")`, borderRadius: "28px", boxShadow: `0 16px 40px ${PINK}22`, border: `1px solid ${GOLD}22` }} />
+            <div className="aspect-[4/3] bg-cover bg-center" style={{ backgroundImage: `url("${GALLERY[2]}")`, borderRadius: "28px", boxShadow: `0 16px 40px ${PINK}22`, border: `1px solid ${GOLD}22` }} />
+          </div>
+        </div>
+        <div className="mt-5 grid md:grid-cols-3 gap-5">
+          {GALLERY.slice(3, 6).map((p, i) => (
+            <div key={i} className="aspect-[4/3] bg-cover bg-center" style={{ backgroundImage: `url("${p}")`, borderRadius: "24px", boxShadow: `0 12px 32px ${PINK}22`, border: `1px solid ${GOLD}22` }} />
           ))}
         </div>
       </section>
