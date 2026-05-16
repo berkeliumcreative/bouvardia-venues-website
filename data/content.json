@@ -1,47 +1,100 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Bouvardia Venues",
+  "tagline": "An elegant restaurant, bar, and event venue in Burbank.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Where the night becomes a memory.",
+    "subheading": "A restaurant, bar, and lounge designed to host the moments worth remembering — birthdays, anniversaries, after-work drinks, and engagements.",
+    "ctaText": "Book the Room",
+    "ctaLink": "tel:8189558091",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNKF7RJFW14PkPz-Y77D1rWYIdcQ8xyX80R2wkb=w1920-h1080-k-no"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "91 reviews. 4.4 stars. Burbank's hidden event venue.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Bouvardia is more than a restaurant — it's a setting. Soft lighting, leather banquettes, and a kitchen and bar that can hold their own at a dinner party or a 40-person celebration.",
+      "Walk in any evening for cocktails and a small plate, or book the whole space for the kind of night you want photos of."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Dinner Service",
+      "description": "Seasonal modern American with Mediterranean accents. Open Tuesday–Sunday from 11 AM.",
+      "price": "Mains from $22"
+    },
+    {
+      "title": "Cocktail Lounge",
+      "description": "A bartender-led cocktail menu, natural wines, and curated spirits. Quiet enough to talk in.",
+      "price": "Cocktails $14+"
+    },
+    {
+      "title": "Private Events",
+      "description": "Buyout, semi-private, and back-room options for 12 to 80 guests. Custom menus available.",
+      "price": "Inquire"
+    },
+    {
+      "title": "Weddings & Showers",
+      "description": "Bridal showers, rehearsal dinners, intimate weddings. We handle floral, AV, and tableware.",
+      "price": "Inquire"
+    },
+    {
+      "title": "Corporate Dinners",
+      "description": "Team offsites, holiday parties, client entertainment. Bring the laptops if you need to.",
+      "price": "From $85/pp"
+    },
+    {
+      "title": "Catering Off-Site",
+      "description": "Off-premise catering for offices, weddings, and home dinners. Drop-off or full service.",
+      "price": "Inquire"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Rachel B.",
+      "text": "Hosted my mom's 60th here. Every detail was handled — they even had her favorite flowers on the table. Unforgettable.",
+      "rating": 5
+    },
+    {
+      "name": "Mark T.",
+      "text": "Date night spot. Beautiful room, real cocktails, food that's actually good. Burbank's best-kept secret.",
+      "rating": 5
+    },
+    {
+      "name": "Sofia G.",
+      "text": "Did our wedding rehearsal here. Service was warm, the room felt like a film set. Highly recommend.",
+      "rating": 4
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 955-8091",
+    "email": "events@bouvardiavenues.com",
+    "address": "137 S Glenoaks Blvd, Burbank, CA",
+    "mapEmbedQuery": "Bouvardia Venues, 137 S Glenoaks Blvd, Burbank, CA",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+      "Monday": "Closed",
+      "Tuesday": "11 AM – 8 PM",
+      "Wednesday": "11 AM – 8 PM",
+      "Thursday": "11 AM – 8 PM",
+      "Friday": "11 AM – 8 PM",
+      "Saturday": "11 AM – 8 PM",
+      "Sunday": "11 AM – 8 PM"
+    }
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Bouvardia Venues — Restaurant, Bar & Event Venue in Burbank, CA",
+    "description": "An elegant restaurant, bar, and private event venue in Burbank. Weddings, corporate dinners, birthdays, and cocktail service nightly.",
+    "keywords": [
+      "event venue burbank",
+      "private dining burbank",
+      "wedding venue burbank",
+      "bouvardia burbank",
+      "burbank restaurant lounge",
+      "cocktail bar burbank"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
-  }
+    "primaryColor": "#7C8F6C",
+    "accentColor": "#C8A858",
+    "fontFamily": "playfair"
+  },
+  "social": {}
 }
